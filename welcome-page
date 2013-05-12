@@ -1,0 +1,549 @@
+<html xmlns:fb="raw.github.com/ma1zeena/sync/master/scripts_fmbl">
+<style>  
+ 
+  .title {
+    color:#000000;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration:none;
+  }
+  
+  .larger {
+    color:#000000;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .larger-a {
+    //color:#D19160;
+    color:#538ADC;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .larger-a:hover {
+    //color:#FF0000;
+    color:#77C9F3;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: none;
+    text-decoration:underline;
+  }
+  
+  select {
+    font-family: Tahoma;
+    font-size: 11px;
+  }
+   
+  .white {
+    color:#FFFFFF;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .blue {
+    color:#3B5998;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: none;
+    text-decoration:none;
+  } 
+  
+  .red {
+    color:#FF0000;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .menu {
+    color:#FFFFFF;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .menu:hover {
+    color:#77C9F3;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .alternate {
+    color:#3B5998;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .alternate:hover {
+    color:#000000;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:underline;
+  }
+  
+  a {
+    //color:#D19160;
+    color:#538ADC;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+  
+  a:hover {
+    //color:#FF0000;
+    color:#77C9F3;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:underline;
+  }
+ 
+  .bordertable {
+    border-width: 1px;
+    border-color: #3B5998;
+    border-style: solid;
+  }
+ 
+  .dashedtable {
+    border-width: 1px;
+    border-color: #3B5998;
+    border-style: dashed;
+  }
+ 
+  .bottomborder {
+    border-style:solid;
+    border-color: #3B5998;
+    border-top-width:0px;
+    border-bottom-width:1px;
+    border-right-width:0px;
+    border-left-width:0px;
+  }
+ 
+  .one-column {
+    color:#000000;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+    border-style:solid;
+    border-color: #3B5998;
+    border-top-width:1px;
+    border-bottom-width:0px;
+    border-right-width:1px;
+    border-left-width:1px;
+  }
+ 
+  .text {
+    font-Family: Serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+  
+  .td0 {
+    color:#000000;
+    background-color:#D9DFEA;
+    border: 0;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .td1 {
+    color:#000000;
+    background-color:#86A1CE;
+    border: 0;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }    
+ 
+  .schedule_table {
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+  }
+ 
+  .top-border {
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: #3B5998;
+  }
+  
+  .schedule {
+    color:#000000;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-style: solid;
+    border-color:#000000;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+ 
+  .border-td {
+    color:#000000;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color:#3B5998;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+  
+  td {
+    color:#000000;
+    border: 0;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: none;
+    text-decoration:none;
+  }
+  
+  .inputtext {
+    border:double;
+    border-width:1;
+    border-color:#555555;
+    background-color:#D9DFEA;
+    font-size:11px;
+    color: #000000;
+    font-Family: Tahoma, Arial, Helvetica, sans-serif;
+  }
+  
+  .inputsubmit {
+    border-style:solid;
+    border-top-width:1px;
+    border-bottom-width:2px;
+    border-right-width:2px;
+    border-left-width:1px;
+    border-top-color:#D9DFEA;
+    border-bottom-color:#3B5998;
+    border-right-color:#3B5998;
+    border-left-color:#D9DFEA;
+    background-color:#538ADC;
+    font-family:Tahoma, arial;
+    font-size:11px;
+    color:#FFFFFF;
+    font-weight:none;
+  }
+  a img{
+	border:none !important;
+}
+#container{
+	margin:0 auto;
+	width:500px;
+	padding:40px;
+	text-align:left;
+	background-color:#fff;
+}
+
+#lightbox h2{
+	margin:0 0 1em 0;
+}
+#lightbox h3{
+	color:#FF713F;
+}
+#lightbox.done p{
+	color:#333;
+}
+
+#form{
+	text-align:left;
+	margin:25px;
+}
+#form ul{
+	list-style:none;
+}
+#form li{
+	margin:0 0 1em 0;
+}
+#form textarea{
+	width:100%;
+	height:150px;
+}
+
+#definition{
+	margin:25px;
+}
+.highlight{
+	background-color:#FEFFAF;
+}
+#lightbox{
+	display:none;
+	position: absolute;
+	top:50%;
+	left:50%;
+	z-index:9999;
+	width:400px;
+	height:200px;
+	padding:10px;
+	margin:-220px 0 0 -250px;
+	border:1px solid #fff;
+	background:#FDFCE9;
+	text-align:left;
+}
+#lightbox[id]{
+	position:fixed;
+}
+
+#overlay{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:5000;
+	background-color:#000;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+#overlay[id]{
+	position:fixed;
+}
+
+#lightbox.done #lbLoadMessage{
+	display:none;
+}
+#lightbox.done #lbContent{
+	display:block;
+}
+#lightbox.loading #lbContent{
+	display:none;
+}
+#lightbox.loading #lbLoadMessage{
+	display:block;
+}
+
+#lightbox.done img{
+	width:100%;
+	height:100%;
+}
+ 
+  <!--
+  #8EA7C5 - blue
+  #D9DFEA - grey
+  59 89 152                (#3B5998)
+  217 223 234              (#D9DFEA)
+  83 138 220 - link normal (#538ADC)
+  119 201 243 - link down  (#77C9F3)
+  -->
+  </style>
+ 
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId   : '',
+          session : null, // don't refetch the session when PHP already has it
+          status  : true, // check login status
+          cookie  : true, // enable cookies to allow the server to access the session
+         xfbml   : true // parse XFBML
+        });
+
+      };
+ 
+      (function() {
+        var e = document.createElement('script');
+        e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+
+
+<title>Sync. | Bem-Vindo ao Sync. !</title> 
+ <meta name="description" content="Sync. É um diretorio online que conecta você ao seus amigos ou parentes" /> 
+<meta name="keywords" content="harvardconnection, harvard, connection, the, facebook, old, original, mark, zuckerberg, winklevoss, tyler, cameron, .co, connectu" /> 
+<meta name="Generator" content="JB engine designed" /> 
+<meta name="robots" content="index, follow" /> 
+<meta name="OriginalPublicationDate" content="2011/04/06 00:00:00">
+<meta name="Headline" content="Sync. | Bem-Vindo ao Sync."> 
+<meta name="IFS_URL" content="/index.php"> 
+<meta name="contentFlavor" content="PAGE"> 
+<meta name="CPS_SITE_NAME" content="Sync. | Bem-Vindo ao Sync."> 
+<meta name="CPS_SECTION_PATH" content="Index"> 
+<meta name="CPS_ASSET_TYPE" content="STY"> 
+<meta name="CPS_PLATFORM" content="HighWeb"> 
+<meta name="CPS_AUDIENCE" content="US"> 
+<meta property="og:title" content="Teste Sync."> 
+<meta property="og:type" content="website"> 
+<meta property="og:description" content="Teste do Sync.">
+<meta property="og:image" content="http://oi41.tinypic.com/anbvrm.jpg">
+<meta property="og:url" content="http://oi41.tinypic.com/anbvrm.jpg"> 
+<meta property="og:site_name" content="Sync.">
+  <!-- sO3vWw3hwrnxdrwPGTKy2ZOW6yU -->
+ </head>
+ <body>
+   <div id="fb-root"></div>
+  <script type="text/javascript">
+//<![CDATA[
+window.__CF=window.__CF||{};window.__CF.AJS={"ga_key":{"ua":"UA-37778798-1","ga_bs":"2"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) { var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",mirage:{responsive:0,lazy:0},oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/abv=1065777907/"},atok:"dccc7ed079c006bc81e01088c013c4db",zone:"thefacebook.us",rocket:"0",apps:{"ga_key":{"ua":"UA-37778798-1","ga_bs":"2"}}}];var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.async=!0;a.src="//ajax.cloudflare.com/cdn-cgi/nexp/abv=2562784428/cloudflare.min.js";b.parentNode.insertBefore(a,b);}}catch(e){};
+//]]>
+</script>
+<script>
+    window.fbAsyncInit = function() {
+   FB.Canvas.setAutoResize();
+    };
+    (function() {
+   var e = document.createElement('script'); e.async = true;
+   e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+   document.getElementById('fb-root').appendChild(e);
+    }());
+  </script>
+<script src="//connect.facebook.net/en_US/all.js#appId=194568130593245&amp;xfbml=1"></script>
+
+<center> 
+<table class="bordertable" cellspacing=0 cellpadding=0 border=0 width=700> 
+  <tr><td> 
+      <table class="bottomborder" cellspacing=0 cellpadding=0 border=0 width=100%> 
+      <tr><td width=350 bgcolor=#3B5998> 
+          <img src='images/logo-left.jpg'></td> 
+          <td><table cellspacing=0 cellpadding=0 border=0 width=100%><tr><td> 
+          <table cellspacing=0 cellpadding=0 border=0 width=100%> 
+          <tr><td><a href='register.php'><img alt='Register' src='http://oi41.tinypic.com/anbvrm.jpg' border=0></a></td> 
+          <td width=100% bgcolor=#3B5998>&nbsp;</td></tr></table></td></tr> 
+          <tr><td><table cellspacing=0 cellpadding=4 border=0 width=100%><tr height=21> 
+          <!--<td bgcolor=#3B5998 width=10>&nbsp;</td>--> 
+                     <td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href='login.php'>login</a></td>
+
+          <td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href='register.php'>registrar</a></td>
+
+          <td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href='about.php'>sobre</a></td>
+		                    <td bgcolor=#3B5998 width=100%>&nbsp;</td> 
+          </tr></table></td> 
+          </tr></table> 
+      </td></tr></table> 
+  </td></tr> 
+  <tr><td><table cellspacing=0 cellpadding=2 border=0 width=100%> 
+      <tr><td valign=top> 
+      <table cellspacing=0 cellpadding=0 border=0 width=105> 
+        <tr><td> 
+                             <table class="dashedtable" cellspacing=0 cellpadding=2 width=100%>
+
+              <tr><td align=right>
+
+                  <p>
+
+
+                  Email:<br> <input type=hidden name='noerror' value='1'><input disabled readonly type=text class="inputtext" name="email"  size=20><br>                  Senha:<br> 
+
+		 <input disabled readonly type=password class="inputtext" name="pass"  size=20><br>
+
+                  <center><input type=button class="inputsubmit" value="login" onclick="javascript:document.location='login.php';">&nbsp;
+
+                          <input type=button class="inputsubmit" value="register" onclick="javascript:document.location='register.php';"></center>
+
+
+
+                  <!--<br>-->
+
+              </td></tr></table>
+              <div style="width:120px;height:240px;margin:10px auto;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7223204697385303";
+/* fbad3 */
+google_ad_slot = "3833389197";
+google_ad_width = 120;
+google_ad_height = 240;
+//-->
+</script>
+<script type="text/javascript"
+src="">
+</script>
+</div>                      </td></tr>  
+      </table> 
+      </td><td width=595 valign=top> 
+        <table class="bordertable" cellspacing=0 cellpadding=0 border=1 width=100%><tr><td> 
+  
+<table cellspacing=0 cellpadding=2 border=0 width=100%> 
+<tr><td class='white' bgcolor=#3B5998>Bem-Vindo ao Sync. !</td></tr></table><center><p class='title'>[ Bem-Vindo ao Sync ]<br>
+&nbsp;<table cellspacing=0 cellpadding=0 border=0 width=95%>
+<tr><td class='larger'>Sync. é um diretorio online que se conecta ao seus amigos ou parentes em qualquer ligar do mundo e principalmente nas universidades.
+<p>Nós abrimos o Sync. para <b>Todas as Pessoas</b>, para que não seja injusto ou que algumas pessoas se sinta, desfavorecidas umas das outras.
+<p>A sua conta não é limitada para nada, somente se violar os Termos de Uso.
+<p>Você pode usar o Sync. para :
+<br>&nbsp;<b>&#8226;</b>&nbsp; Procurar seus amigos ou parentes;
+<br>&nbsp;<b>&#8226;</b>&nbsp; Achar e conversar com aquela pessoa que você nao vê faz tempo;
+<br>&nbsp;<b>&#8226;</b>&nbsp; Olhar seus amigos, e os amigos de seus amigos;
+<br>&nbsp;<b>&#8226;</b>&nbsp; Fornecer Informação Profissional para qualquer amigo ou impresa;
+<br>&nbsp;<b>&#8226;</b>&nbsp; Sincronizar todos os seus contatos de sua agenda, rede social ou banco de dados
+<br>&nbsp;<b>&#8226;</b>&nbsp; Criar websites & perguntar informaçōes e muito mais !
+<br><p>Para mais informaçōes clique em sobre no cabeçalho ou no final da página</br></p>
+
+<p>Para começar, clique abaixo e se registre. Se já é registrado, logue-se abaixo<!--<br><font size="+1">Junte-se Agora</font>-->
+
+
+
+<center>
+<div id="fb-root"></div>
+<center><input class='inputsubmit' type="button" value='Registrar' onclick='javascript:document.location="register.php";'>&nbsp;&nbsp;<input class='inputsubmit' type="button" value=' Login ' onclick='javascript:document.location="login.php";'>
+<br>&nbsp;</td></tr></table>  </td></tr></table> 
+
+
+
+ 
+  </td></tr></table> 
+  <center> 
+  <p><a href="about.php">sobre</a>&nbsp;&nbsp;
+  <a href="contact.php">contatato</a>&nbsp;&nbsp;
+  <a href="faq.php">faq</a>&nbsp;&nbsp;
+  <a href="terms.php">termos</a>&nbsp;&nbsp;
+  <a href="policy.php">privacidade</a> 
+  <br>[ Uma produção de Giovani Castilho e Lucas Candido ]
+  <br>Sync. &copy; 2013  </center><br> 
+  </td></tr></table> 
+ 
+
+ <script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-37778798-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
