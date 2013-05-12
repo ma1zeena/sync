@@ -1,0 +1,94 @@
+//Essa é a Primeira versão, criada no Nitro Html para Tablets por Giovani
+//This is the first version, created in Nitro Html for tablets by Giovani
+//Agente tem Copyright sobre, não copie o template
+//We have Copyrit of it, dont copy and make yourself the template
+//Obrigado
+//Thanks
+
+<html>
+<head>
+<script type="text/javascript">
+</script>
+</head>
+<div style=background:rgb(135,138,252); >
+<body>
+<center>
+<p>&nbsp; &nbsp; <img src="http://oi43.tinypic.com/30k7dqd.jpg" alt="Sync. Página Inicial" align="left" width="200" height="100" /</p>
+<br>
+<br></br>
+<p align="right">
+<center>
+| <a href="javascript:homepage" >Página Inicial</a> <a href="javascript:mensagens" >Mensagens</a> <a href="javascript:friends" >Amigos</a> <a href="javascript:chat" >Chat</a> <a href="javascript:webcam" >Chat Webcam</a> <a href="javascript:store" >Loja</a> <a href="javascript:groups" >Grupos</a> <a href="javascript:about" >Sobre</a> <a href="javascript:use" >Termos de Uso</a> | <a href="javascript:logout" >Sair do Sync.</a> <select name="Select1">
+  <option>Usúario</option>
+  <option>Perfil</option>
+  <option>Amigos</option>
+  <option>Website</option>
+  <option>Configurações</option>
+  <option>Ajuda</option>
+</p>
+</center>
+ </select>
+</div>
+<div style=background:rgb(175,250,171); >
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Nome do Usúario &nbsp; &nbsp; &nbsp; |&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+ Informaçōes do Perfil:
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; |  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://giovani.tk" >Website</a> &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;| País : Brasil
+</p> 
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;&nbsp;Aniversário: 02/12&nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+| Cidade: São Paulo
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Trabalha em(na) : &nbsp; &nbsp; &nbsp; |&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 
+| Estado : São Paulo 
+</p>
+<p align="left"> 
+&nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Sync.® Corporation &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | Sobre o Usúario: Olá Meu nome é Giovani, sinta-se livre para comentar 
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; Estuda/Estudou em: &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | Relacionamento : <select name="Botão">
+  <option>            </option> 
+  <option>Solteiro(a)</option>
+  <option>Namorando</option>
+  <option>Enrolado(a)</option>
+  <option>Casado(a)</option>
+  <option>Viuvo(a)</option>
+ </select>
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; | &nbsp;&nbsp;&nbsp;Colégio Campos Salles &nbsp;&nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | Fotos mais Populares : 
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; <img src="http://oi44.tinypic.com/238htj.jpg" alt="Imagem do Perfil" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="http://oi44.tinypic.com/rvx5ck.jpg" alt="Foto 01" width="183" heidth="80" /> <img src="http://oi43.tinypic.com/1trl1d.jpg" alt="Foto 02" width="183" heidth="80" /> <img src="http://oi42.tinypic.com/28i9us9.jpg" alt="Foto 03" width="183" heidht="80" />
+</p>
+<p>
+<fieldset name="Sobre o Usuario">
+   <legend>Sobre o Usúario</legend>
+Meu nome é Giovani Castilho, fundei o Sync. aos 14 anos, se registre no site, deu trabalho para criar... Sou Programador, WebDesigner & Designer Gráfico. Para saber mais sobre mim e o Sync. nos ultimos meses entre em meu site <a href="http://giovani.tk" >Clicando Aqui</a> ou em cima no canto direito em WebSite.
+</fieldset>
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<button name="Sync. Me">Adicionar como Amigo</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Assinatura : Giovani Castilho =D &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button name="Pontos">Pontos : 0</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="Radio1" type="radio" /> Gostou do Perfil ?
+</p>
+<p align="left">
+&nbsp; &nbsp; &nbsp; <textarea name="TextArea1" cols="30" rows="5">Escreva um Coméntario</textarea>
+<p align="left">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input name="Submit1" type="submit" value="Enviar Comentário" />
+</p>
+</p>
+<hr></hr>
+</div>
+<p align="middle" ><font face=monospace><font size="5">
+| Uma Produção de Lucas Candido & Giovani Castilho |
+</p></font>
+<p align="right">|<a href="javascript:about" >Sobre o Sync</a> <a href="javacript:use" >Termos de Uso</a> <a href="javascript:credits" >Creditos</a> <a href="javascript:website" >Websites Mais Votados</a> <a href="javascript:perfil" >Perfis Mais Visitados</a> <a href="javascript:photos" >Fotos Mais Votadas</a> <a href="javascript:chatgeral" >Chat</a> <a href="javacript:galery" >Galeria</a> <a href="http://myurl" >Desenvolvedores</a>|
+<hr></hr>
+</center>
+</body>
+</html>
