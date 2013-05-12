@@ -1,0 +1,184 @@
+<title>TheFacebook | Edit Friends</title> 
+<link rel="stylesheet" href="style.css"> 
+<link rel="shortcut icon" href="favicon.ico"> 
+
+
+<center>
+
+<table class="bordertable" cellspacing=0 cellpadding=0 border=0 width=700>
+
+  <tr><td>
+
+      <table class="bottomborder" cellspacing=0 cellpadding=0 border=0 width=100%>
+
+      <tr><td width=350 bgcolor=#3B5998>
+
+          <img src='images/logo-left.jpg'></td>
+
+          <td><table cellspacing=0 cellpadding=0 border=0 width=100%><tr><td>
+
+          <table cellspacing=0 cellpadding=0 border=0 width=100%>
+
+          <tr><td><a href='index.php'><img src='http://oi41.tinypic.com/anbvrm.jpg' border=0></a></td>
+
+          <td width=100% bgcolor=#3B5998>&nbsp;</td></tr></table></td></tr>
+
+          <tr><td><table cellspacing=0 cellpadding=4 border=0 width=100%><tr height=21>
+
+          <!--<td bgcolor=#3B5998 width=10>&nbsp;</td>-->
+
+           		            <td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href='http://www.thefacebook.us/home.php'>incio</a></td>
+
+          <td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href='http://www.thefacebook.us/search.php'>procurar</a></td>
+
+          <td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href="http://www.thefacebook.us/invitefb.php">convidar</a></td>
+		  
+		  <!--<td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href="http://www.thefacebook.us/posttowall.php">post&nbsp;to&nbsp;fb</a></td>-->
+		  
+		  <td bgcolor=#3B5998 valign=bottom>&nbsp;<a class="menu" href='http://www.thefacebook.us/login.php?logout=1'>[sair]</a><!--https://www.facebook.com/logout.php?next=http%3A%2F%2Fwww.thefacebook.us%2Flogin.php?logout=1&access_token=CAACzXUmJsrEBAIVhjZCZAGPXvfXVhdfnu7jywuZAl6wCovZCulKUopW27ZA3laKNW1lXm4ZB81ulJEOLbrQst5rm6ZCFPFPdktJ4r5PFpG8xUnMc8Ngu9XLReysSBy62Shh4zcLZA4crC2P5ZBWEZBu3OyzEzCW9TGXMwZD--></td>
+		  
+
+                    <td bgcolor=#3B5998 width=100%>&nbsp;</td>
+
+          </tr></table></td>
+
+          </tr></table>
+
+      </td></tr></table>
+
+  </td></tr>
+
+  <tr><td><table cellspacing=0 cellpadding=2 border=0 width="100%">
+
+      <tr><td valign=top width="136px" style="width:136px">
+
+      <table cellspacing=0 cellpadding=0 border=0 width=100%>
+
+        <tr><td>
+
+                      <table class="dashedtable" cellspacing=0 cellpadding=2 width=100%>
+
+              <tr>
+				<td width="15%"></td>
+				<td width="70%" align=right>
+				<p><form action="search.php">
+                  <input class="inputtext" name=name type=text style="width:85px">
+				  <br>Procura&nbsp;Rápida&nbsp;<input type="submit" class="inputsubmit" style="width:22px" value="procurar">
+				  </form>
+				</p>
+				</td>
+				<td width="15%"></td>
+			  </tr>
+			  </table>
+			  <br>
+              <table class="dashedtable" cellspacing=0 cellpadding=10 width=100%>
+
+              <tr><td align=left style="color:#538ADC">
+
+                  <p style="color:#538ADC">
+				  <a href="profile.php">Meu Perfil</a> [ <a href="editprofile.php">editar</a> ]<br>
+				   				  <a href="editfriends.php">Meus Amigos</a><br>
+				  <a href="browse.php">Minha Impresa</a><br>
+				  <a href="messages.php">Minhas Mensagens</a>
+				  				  <br>
+				  <a href="account.php">Minha Conta</a><br>
+				  <a href="accountprivacy.php">Minha Privacidade</a><br>
+				
+				</p>
+
+
+                  <!--<br>-->
+
+              </td></tr></table>
+			  <br>
+			  
+			  	<div style="width:120px;height:240px;margin:10px auto;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7223204697385303";
+/* fbad3 */
+google_ad_slot = "3833389197";
+google_ad_width = 120;
+google_ad_height = 240;
+//-->
+</script>
+<script type="text/javascript"
+src="">
+</script>
+</div>
+        </td></tr>
+
+
+
+      </td></tr>
+
+      </table>
+
+      </td><td width=595 style="width:595px" valign=top>
+
+        <table class="bordertable" cellspacing=0 cellpadding=0 border=1 width=100%><tr><td>
+
+
+
+	  <table cellspacing=0 cellpadding=2 border=0 width=100%><tr><td class='white' bgcolor=#3B5998>
+	  Amigos
+	  </td></tr></table>
+
+
+<br>
+<table cellspacing=0 cellpadding=6 border=0 width=97% align=center valign=top>
+	<tr>
+
+
+		<td width="100%" valign=top>
+		
+
+			<table class='bordertable' cellspacing=0 cellpadding=0 width=100% valign=top>
+				<tr>
+					<td>
+						<table cellspacing=0 cellpadding=2 border=0 width=100%> 
+							<tr>
+								<td class='white' bgcolor=#3B5998>
+									Editar Amigos - [ <a class=menu href="friends.php">ver</a> ]
+								</td>
+								
+							</tr>
+						<tr>
+								<td bgcolor="#d9dfea">
+
+						<table width=95%><tr><td style='color:#3b5998'>Mostrando todos os Amigos </td></tr></table>									</td></tr></table>
+									<table width=90%><tr><td style='color:#538ADC'>
+									&nbsp;<font color=black>Filtrar:</font>&nbsp;&nbsp;&nbsp;
+									[ <a href="?view=ra">Ativos Recentemente</a> ]&nbsp;&nbsp;&nbsp;
+									[ <a href="?view=ru">Atualizados Recentemente</a> ]&nbsp;&nbsp;&nbsp;
+									[ <a href="editfriends.php">Todos</a> ]
+									</td></tr></table>
+									
+									<table width=95%>
+									<tr><td>Parece que você não tem amigos ainda =(  <a href='search.php'>Procurar por Amigos no Sync.</a><br></td></tr>									</table>
+										<table width=100%><tr><td bgcolor='#d9dfea'><table width=100% ><tr><td style='color:#3b5998'>Mostrando Todos os Amigos. </td></tr></table></td></tr></table>					</td>
+				</tr>
+			</table>
+	
+	</table>
+	<br>&nbsp;<center>
+	<table class='bordertable' cellspacing=0 cellpadding=0 width=96%><tr><td><table cellspacing=0 cellpadding=2 border=0 width=100%> 
+
+  </td></tr></table>
+
+  <center>
+
+<p><a href="about.php">sobre</a>&nbsp;&nbsp;
+  <a href="contact.php">contato</a>&nbsp;&nbsp;
+  <a href="faq.php">faq</a>&nbsp;&nbsp;
+  <a href="terms.php">termos</a>&nbsp;&nbsp;
+  <a href="policy.php">privacidade</a> 
+  <br>[ Uma produção de Giovani Castilho & Lucas Candido ]
+  <br>Sync. &copy; 2013 
+
+  </center><br>
+
+  </td></table><br></table>
+
+
+
+ 
