@@ -1,3 +1,4 @@
+
 <html xmlns:fb="raw.github.com/ma1zeena/sync/master/scripts_fmbl">
 <style>  
  
@@ -435,7 +436,7 @@ try{if (!window.CloudFlare) { var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",mi
   <tr><td> 
       <table class="bottomborder" cellspacing=0 cellpadding=0 border=0 width=100%> 
       <tr><td width=350 bgcolor=#3B5998> 
-          <img src='images/logo-left.jpg'></td> 
+          <img src='http://www.thefacebook.us/images/logo-left.jpg'></td> 
           <td><table cellspacing=0 cellpadding=0 border=0 width=100%><tr><td> 
           <table cellspacing=0 cellpadding=0 border=0 width=100%> 
           <tr><td><a href='register.php'><img alt='Register' src='http://oi41.tinypic.com/anbvrm.jpg' border=0></a></td> 
@@ -505,8 +506,8 @@ src="">
 <br>&nbsp;<b>&#8226;</b>&nbsp; Olhar seus amigos, e os amigos de seus amigos;
 <br>&nbsp;<b>&#8226;</b>&nbsp; Fornecer Informação Profissional para qualquer amigo ou impresa;
 <br>&nbsp;<b>&#8226;</b>&nbsp; Sincronizar todos os seus contatos de sua agenda, rede social ou banco de dados
-<br>&nbsp;<b>&#8226;</b>&nbsp; Criar websites & perguntar informaçōes e muito mais !
-<br><p>Para mais informaçōes clique em sobre no cabeçalho ou no final da página</br></p>
+<br>&nbsp;<b>&#8226;</b>&nbsp; Criar websites & perguntar informaçoes e muito mais !
+<br><p>Para mais informaçoes clique em sobre no cabeçalho ou no final da página</br></p>
 
 <p>Para começar, clique abaixo e se registre. Se já é registrado, logue-se abaixo<!--<br><font size="+1">Junte-se Agora</font>-->
 
@@ -527,7 +528,7 @@ src="">
   <a href="faq.php">faq</a>&nbsp;&nbsp;
   <a href="terms.php">termos</a>&nbsp;&nbsp;
   <a href="policy.php">privacidade</a> 
-  <br>[ Uma produção de Giovani Castilho e Lucas Candido ]
+  <br>[ Uma produção de Giovani Castilho ]
   <br>Sync. &copy; 2013  </center><br> 
   </td></tr></table> 
  
